@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigator-head{
+    display: flex;
+    background: #164a41;
+}
+.brandname{
+    flex: 30%;
+    
+}
+.brandname h1{
+    margin-left: 5px;
+    color: white;
+    
+}
+.brandname img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu{
+    flex: 70%;
+}
+.navigator-head{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin-top: 10px;
+}
+.menu li{
+    flex: auto;
+}
+.menu a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #9dc88d;
+}
+.menu a:hover{
+    color: #f1b24a;
+}
+menu a:visited{
+    color: #f1b24a;
+}
+#about{
+    display: flex;
+    margin-top: 1000px;
+}
+#about h1{
+    flex: auto;
+    padding-top: 20%;
+    height: 50px;
+    width: 50px;
+    font-size: 3rem;
+    text-align: center;
+    height: 100vh;
+    background-color:#9DC88D;   
+}
+
+#skills{
+    display: flex;
+    margin-top: 1000px;
+}
+#skills h1{
+    flex: auto;
+    padding-top: 20%;
+    height: 50px;
+    width: 50px;
+    font-size: 3rem;
+    text-align: center;
+    height: 100vh;
+    background-color: #f1b24a;
+}
+#home{
+    display: flex;
+    margin-top: 1000px;
+}
+
+#home h1{
+    flex: auto;
+    padding-top: 20%;
+    height: 50px;
+    width: 50px;
+    font-size: 3rem;
+    text-align: center;
+    height: 100vh;
+    background-color: white;
+}
